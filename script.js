@@ -1,5 +1,5 @@
 let weather = {
-    "apikey": WEATHER_API_KEY,
+    "apikey": 11d9e43e458583659839ce045458f316,
     fetchWeather : function (city) {
         fetch("https://api.openweathermap.org/data/2.5/weather?q=" 
         + city 
@@ -39,4 +39,4 @@ document.querySelector(".searchbar").addEventListener("keyup", function(event){
     }
 });
 
-weather.fetchWeather("durgapur");
+weather.fetchWeather("puducherry");
